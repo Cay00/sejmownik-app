@@ -7,3 +7,5 @@ export const ICON_MASK_CLASS_NAME =
 // would leave the mask with nothing to show: name the system colour that the
 // text of the control gets.
 export const LINK_ICON_MASK_CLASS_NAME = `${ICON_MASK_CLASS_NAME} forced-colors:bg-[color:LinkText]`;
+
+export const BUTTON_ICON_MASK_CLASS_NAME = `${ICON_MASK_CLASS_NAME} forced-colors:bg-[color:ButtonText]`;

@@ -4,4 +4,7 @@ export const PATHS = {
   privacy: "/privacy",
   about: "/about",
   home: "/",
+  bills: "/ustawy",
+  mps: "/poslowie",
+  education: "/edukacja",
 } as const;
