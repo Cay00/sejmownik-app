@@ -8,12 +8,7 @@ export const HeaderNav = ({ variant, onNavigate, id, ref }: HeaderNavProps) => {
   const { className, entries } = HEADER_NAV_LOOKS[variant];
 
   return (
-    <nav
-      ref={ref}
-      id={id}
-      aria-label="Nawigacja główna"
-      className={className}
-    >
+    <nav ref={ref} id={id} aria-label="Nawigacja główna" className={className}>
       {entries.map((entry) => (
         <HeaderNavItem
           key={entry.key}
